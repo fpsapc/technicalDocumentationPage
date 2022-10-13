@@ -1,0 +1,53 @@
+@media{
+
+}
+#navbar{
+position: fixed;
+min-width: 290px;
+top: 0px;
+left: 0px;
+width: 300px;
+height: 100%;
+border-right: solid;
+  border-right-color: currentcolor;
+border-color: rgba(0, 22, 22, 0.4)
+}
+header{
+color: black;
+margin: 10px;
+text-align: center;
+font-size: 1.8em;
+}
+#navbar a{
+display: block;
+padding: 10px 30px;
+color: #4d4e53;
+text-decoration: none;
+cursor: pointer;
+}
+#navbar ul{
+height: 88%;
+padding: 0;
+overflow-y: auto;
+overflow-x: hidden;
+}
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+#main-doc{
+position: absolute;
+margin-left: 310px;
+padding: 20px;
+margin-bottom: 110px;
+}
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+section li {
+    margin: 15px 0px 0px 20px;
+    }
