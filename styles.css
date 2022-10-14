@@ -1,5 +1,7 @@
-@media{
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #navbar{
 position: fixed;
@@ -46,8 +48,14 @@ margin-bottom: 110px;
 }
 #main-doc header {
     text-align: left;
-    margin: 0px;
+    margin: 0 0 20px 0;
+}
+p{
+    margin: 0 0 20px 0;
 }
 section li {
-    margin: 15px 0px 0px 20px;
+    margin: 15px 0px 25px 20px;
+    }
+    @media{
+
     }
